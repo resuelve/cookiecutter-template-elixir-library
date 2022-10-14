@@ -1,4 +1,4 @@
-# cookiecutter-templete-elixir-library
+# cookiecutter-template-elixir-library
 
 This project helps Elixir developers publish their libraries to Hex.pm.
 
@@ -27,7 +27,7 @@ $ brew install yamllint
 Generate a template:
 
 ``` shell
-$ cookiecutter git@github.com:resuelve/cookiecutter-templete-elixir-api.git
+$ cookiecutter git@github.com:resuelve/cookiecutter-template-elixir-api.git
 ```
 
 This command will ask you for your project attributes, and after that
