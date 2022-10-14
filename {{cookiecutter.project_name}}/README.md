@@ -101,7 +101,7 @@ end
 Since you have the mix.ex file configured correctly and successfully passing the CI stream. You can trigger a new version of the library to be uploaded.
 In the github repository, go to the release section, check the release version number, and ask for advice from the developer owner of the library, to find out what kind of changes the next version would have, to put the tag number it would have and add it.
 
-For example, an api with the version 1.7.2
+For example, an api with the version 1.7.2:
 
 1 = The number of mayor versión changes
 
