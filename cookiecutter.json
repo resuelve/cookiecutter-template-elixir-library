@@ -2,5 +2,5 @@
   "project_branch": "main",
   "project_name": "aclarations-liveview-poc",
   "project_runner": "self-hosted-rtd-prod",
-  "elixir_version": "1.10-alpine",
+  "elixir_version": "1.10-alpine"
 }
