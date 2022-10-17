@@ -37,6 +37,7 @@ creates a directory with your project's name, for example:
 $ find example-library
 example-library
 example-library/README.md
+example-library/.github
 example-library/.github/workflows
 example-library/.github/workflows/ci.yml
 example-library/.github/workflows/publish-hexpm.yml
