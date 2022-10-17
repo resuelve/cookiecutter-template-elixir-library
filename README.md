@@ -27,19 +27,19 @@ $ brew install yamllint
 Generate a template:
 
 ``` shell
-$ cookiecutter git@github.com:resuelve/cookiecutter-template-elixir-api.git
+$ cookiecutter git@github.com:resuelve/cookiecutter-template-elixir-library.git
 ```
 
 This command will ask you for your project attributes, and after that
 creates a directory with your project's name, for example:
 
 ``` shell
-$ find example-api
-example-api
-example-api/README.md
-example-api/.github/workflows
-example-api/.github/workflows/ci.yml
-example-api/.github/workflows/publish-hexpm.yml
+$ find example-library
+example-library
+example-library/README.md
+example-library/.github/workflows
+example-library/.github/workflows/ci.yml
+example-library/.github/workflows/publish-hexpm.yml
 ```
 
 ### Test resulting yaml
@@ -47,7 +47,7 @@ example-api/.github/workflows/publish-hexpm.yml
 You can use `yamllint` to lint your resulting Github actions workflow, for example:
 
 ```shell
-$ yamllint example-api/.github/workflows/ci.yml
+$ yamllint example-library/.github/workflows/ci.yml
 ```
 
 Remember to test locally and fix any error reported by the linter before commit.
@@ -59,10 +59,10 @@ run cookiecutter without user intervention:
 
 ``` shell
 $ cd data/vcs
-$ cookiecutter git@github.com/resuelve/cookiecutter-templete-elixir-api.git \
+$ cookiecutter git@github.com/resuelve/cookiecutter-template-elixir-library.git \
   --no-input \
   --overwrite-if-exists \
-  project_name=example-api
+  project_name=example-library
 ```
 ### Contributions
 
