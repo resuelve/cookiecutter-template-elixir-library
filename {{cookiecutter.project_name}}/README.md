@@ -41,7 +41,7 @@ aliases: aliases(),
     ]
   end
  ```
-Note: In some cases, don't is necessary dialyzer, ask to developer owner of [proyect](proyect)  
+Note: In some cases, don't is necessary dialyzer, ask to developer owner of proyect 
 
 You should have a mix.ex file like this example
  ```
