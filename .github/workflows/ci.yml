@@ -26,7 +26,7 @@ jobs:
         with:
           format: parsable
           strict: true
-          file_or_dir: 'example-api/.github/workflows/*.yml'
+          file_or_dir: 'example-library/.github/workflows/*.yml'
           config_data: |
             extends: default
             rules:
