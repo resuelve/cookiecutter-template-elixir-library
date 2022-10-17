@@ -8,7 +8,7 @@ on:
 jobs:
   publish-hexpm:
     name: publish to hex.pm
-    runs-on: ubuntu-latest
+    runs-on: {{ cookiecutter.project_runner }}
     container: elixir:{{ cookiecutter.elixir_version }}
     steps:
       - uses: actions/checkout@v3
